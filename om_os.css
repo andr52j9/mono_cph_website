@@ -1,0 +1,14 @@
+body {
+  background-color: #c9c9bc;
+}
+
+h2 {
+}
+
+video {
+}
+
+.first_section {
+  display: grid;
+  grid-column: 1/4;
+}
