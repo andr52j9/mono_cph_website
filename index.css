@@ -2,6 +2,13 @@ body {
   background-color: #c9c9bd;
 }
 
-video {
-  max-width: 100%;
+#video_forsideloop {
+  width: 100%;
+  /* height: 70%; */
+  /* z-index: -1; */
+  /* position: fixed; */
+}
+
+img {
+  width: 100%;
 }
