@@ -1,9 +1,35 @@
-body {
-  background-color: #c9c9bc;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 h2 {
   font-family: futura-pt, sans-serif;
-  font-weight: 400;
+  font-weight: 450;
+  font-size: 2rem;
   font-style: normal;
+  color: aliceblue;
+}
+
+.baggrund {
+  display: grid;
+  place-items: left;
+}
+
+img,
+h2 {
+  grid-area: 1 / 1;
+}
+
+iframe {
+  width: 40%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }

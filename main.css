@@ -14,7 +14,7 @@ nav .links a {
 
 header {
   top: 0;
-  padding: 10px;
+  padding: 0px;
   gap: 20px;
   position: sticky;
   z-index: 2;
@@ -45,4 +45,6 @@ footer {
   font-size: 1rem;
   display: flex;
   place-content: center;
+  margin: 0.5rem;
+  padding: 1rem;
 }
