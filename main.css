@@ -1,3 +1,38 @@
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+
 /* Menu nav styling */
 nav a:visited {
   color: black;
@@ -14,7 +49,7 @@ nav .links a {
 
 header {
   top: 0;
-  padding: 10px;
+  padding: 0px;
   gap: 20px;
   position: sticky;
   z-index: 2;
@@ -45,4 +80,6 @@ footer {
   font-size: 1rem;
   display: flex;
   place-content: center;
+  margin: 0.5rem;
+  padding: 1rem;
 }
