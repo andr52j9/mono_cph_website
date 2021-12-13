@@ -3,8 +3,17 @@ main {
   margin: auto;
 }
 
-body {
+/* body {
   background-color: #c9c9bc;
+} */
+
+#stribe {
+  height: 1000px;
+  width: 16rem;
+  position: absolute;
+  background-color: #c9c9bc;
+  z-index: -2;
+  left: 25rem;
 }
 
 video {
@@ -17,7 +26,9 @@ img {
 
 h1 {
   margin-left: 20%;
-  font-family: futura-pt, sans-serif;
+  /* font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal; */
 }
 
 @media (min-width: 800px) {
@@ -43,7 +54,7 @@ h1 {
 
   #second_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     gap: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
