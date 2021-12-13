@@ -10,9 +10,9 @@ function toggleMenu() {
   const menuShown = nav.classList.contains("shown");
 
   if (menuShown) {
-    btn.textContent = "Luk";
+    btn.textContent = "LUK";
   } else {
-    btn.textContent = "Menu";
+    btn.textContent = "MENU";
   }
 }
 

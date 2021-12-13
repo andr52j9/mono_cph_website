@@ -1,6 +1,8 @@
 /* burgermenu */
 .toggle-btn {
   display: none;
+  font-family: futura-pt, sans-serif;
+  color: #000;
 }
 
 @media (max-width: 800px) {
