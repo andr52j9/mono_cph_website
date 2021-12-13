@@ -17,7 +17,7 @@ img {
 
 h1 {
   margin-left: 20%;
-  /* font-family: futura-pt, sans-serif; */
+  font-family: futura-pt, sans-serif;
 }
 
 @media (min-width: 800px) {
