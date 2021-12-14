@@ -62,7 +62,7 @@ footer {
     display: grid;
     place-items: center;
     aspect-ratio: 1854 / 3522;
-    width: 80%;
+    width: 90%;
     margin-inline: auto;
     padding-bottom: 1rem;
   }
