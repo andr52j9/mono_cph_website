@@ -94,6 +94,14 @@ body {
 
 /* ______________________ KARUSSEL KODE SLUT */
 
+h1 {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
 #gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -161,55 +169,55 @@ body {
 .image9 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 
 .image10 {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 8;
 }
 
 .image11 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 7;
 }
 
 .image12 {
   grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 10;
 }
 
 .image13 {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 10;
 }
 
 .image14 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 9;
 }
 
 .image15 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 9;
 }
 
 .image16 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 10;
 }
