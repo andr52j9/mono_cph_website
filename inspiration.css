@@ -94,6 +94,14 @@ body {
 
 /* ______________________ KARUSSEL KODE SLUT */
 
+h1 {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
 #gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
