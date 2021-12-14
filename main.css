@@ -1,17 +1,15 @@
-/* burgermenu */
-.toggle-btn {
+/* .toggle-btn {
   display: none;
   font-family: futura-pt, sans-serif;
   color: #000;
 }
 
-footer {
-  text-align: center;
-}
-
-.mono {
-  font-size: 200%;
-  margin-top: -3%;
+.menu li a {
+  font-family: "futura-pt", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
 }
 
 @media (min-width: 800px) {
@@ -25,6 +23,10 @@ footer {
 }
 
 @media (max-width: 800px) {
+  #mono {
+    font-size: 150%;
+    margin-top: 0%;
+  }
   .toggle-btn {
     background: transparent;
     border: none;
@@ -60,6 +62,235 @@ footer {
     color: rgb(0, 0, 0);
   }
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 0rem 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 0rem 1.5rem;
+}
+
+.menu_color {
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0vw;
+  padding: 2vw;
+  overflow-x: auto;
+  gap: 9vw;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  font-size: 1rem;
+  display: flex;
+  place-content: center;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+} */
+
+/* _____________________MELLEM CSS______________________________________ */
+
+/* .toggle-btn {
+  display: none;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+}
+
+.menu li a {
+  font-family: "futura-pt", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 600px) {
+  #mono {
+    font-size: 150%;
+    margin-top: 0%;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .menu li a {
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}
+
+@media (max-width: 800px) {
+  li a .mono {
+    font-size: 180%;
+    margin-top: 0%;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .menu li a {
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 0rem 1.5rem;
+}
+
+.menu_color {
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0vw;
+  padding: 2vw;
+  overflow-x: auto;
+  gap: 9vw;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  font-size: 1rem;
+  display: flex;
+  place-content: center;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+} */
+
+/* ______________________________DET GAMLE CSS BRUGES HERUNDER__________________________________ */
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
 /* Menu nav styling */
 /* nav #mono a {
   font-size: 2.5rem;
@@ -117,6 +348,10 @@ header {
 .menu_color {
   background-color: white;
 }
+.mono {
+  font-size: 150%;
+  margin-top: -5%;
+}
 
 .menu {
   display: flex;
@@ -128,13 +363,13 @@ header {
   gap: 9vw;
 }
 
-/* .menu li a {
+.menu li a {
   font-family: "futura-pt", sans-serif;
   font-size: 120%;
   text-decoration: none;
   font-weight: 400;
   color: rgb(0, 0, 0);
-} */
+}
 
 /* footer styling */
 footer {
