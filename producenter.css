@@ -25,6 +25,10 @@ h2 {
   top: 10px;
 }
 
+footer {
+  text-align: center;
+}
+
 /*computer size*/
 
 @media (min-width: 800px) {
@@ -59,5 +63,8 @@ h2 {
     width: 80%;
     margin-inline: auto;
     padding-bottom: 1rem;
+  }
+
+  header {
   }
 }
