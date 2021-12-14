@@ -28,7 +28,7 @@ h2 {
   font-weight: 500;
   font-size: 1.4rem;
   font-style: normal;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   margin-left: 34%;
   position: relative;
   top: 10px;
@@ -52,7 +52,7 @@ footer {
     font-weight: 500;
     font-size: 2.2rem;
     font-style: normal;
-    color: aliceblue;
+    color: black;
     margin-left: 14.2%;
     position: relative;
     top: 67px;
