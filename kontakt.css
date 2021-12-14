@@ -208,13 +208,19 @@ gap: 5%; */
 
 /* DESKTOP versionen */
 @media (min-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
   h1 {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-size: 25px;
     font-style: normal;
     color: black;
-    margin-left: 12%;
+    margin-left: 8%;
+    margin-bottom: 8%;
   }
 
   .boxtitel {
@@ -252,18 +258,39 @@ gap: 5%; */
     background-color: white;
     display: grid;
     grid-template-columns: 500px 1fr;
-    grid-template-rows: 40px 1fr;
+    grid-template-rows: 80px 1fr;
     margin: 7%;
     gap: 5%;
+  }
+
+  #overlap {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+  }
+
+  #kort_wrap {
+    object-fit: cover;
+    width: 100%;
+    background-image: url(kort.jpg);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
   }
 
   /* du skal få teksten under med grid */
   #txt_wrap {
     grid-column: 1/2;
-    margin-left: 12%;
-  }
-  #box {
-    grid-column: 2/2;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    margin-top: 0%;
   }
 
   /* __________________FORMULAR BOKSEN ____________________-*/
@@ -292,7 +319,7 @@ gap: 5%; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 13px 1fr 169px;
-    margin: 1%;
+    margin: 0%;
     gap: 6%;
     padding: 17%;
   }
@@ -317,32 +344,5 @@ gap: 5%; */
     font-style: normal;
     color: black;
     margin-top: 10%;
-  }
-
-  /* footer {
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  font-family: futura-pt, sans-serif;
-  font-weight: 200;
-  font-style: bold
-  font-size: 1rem;
-  display: flex;
-  place-content: center;
-  margin: 0.5rem;
-  padding: 1rem;
-} */
-
-  /* _____________KORTETS KODE______________*/
-
-  /* #section3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  } */
-
-  #kort_wrap {
-    object-fit: cover;
-    background-image: url(billeder/kort.jpg);
   }
 }
