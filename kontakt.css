@@ -239,6 +239,15 @@ gap: 5%; */
     font-style: normal;
     color: black;
   }
+
+  .footerfarve {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+  }
+
   #section1 {
     background-color: white;
     display: grid;
@@ -326,9 +335,14 @@ gap: 5%; */
 
   /* _____________KORTETS KODE______________*/
 
+  /* #section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  } */
+
   #kort_wrap {
     object-fit: cover;
-    /* margin-left: 5%;
-    width: 90%; */
+    background-image: url(billeder/kort.jpg);
   }
 }
