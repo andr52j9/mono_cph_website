@@ -5,6 +5,10 @@
   color: #000;
 }
 
+footer {
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .toggle-btn {
     background: transparent;
