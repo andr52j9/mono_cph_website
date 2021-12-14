@@ -9,6 +9,21 @@ footer {
   text-align: center;
 }
 
+.mono {
+  font-size: 200%;
+  margin-top: -3%;
+}
+
+@media (min-width: 800px) {
+  .menu li a {
+    font-family: "futura-pt", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}
+
 @media (max-width: 800px) {
   .toggle-btn {
     background: transparent;
@@ -36,8 +51,15 @@ footer {
     display: flex;
     flex-flow: column;
   }
-}
 
+  .menu li a {
+    font-family: "futura-pt", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+  }
+}
 /* Menu nav styling */
 /* nav #mono a {
   font-size: 2.5rem;
@@ -95,10 +117,6 @@ header {
 .menu_color {
   background-color: white;
 }
-.mono {
-  font-size: 150%;
-  margin-top: -5%;
-}
 
 .menu {
   display: flex;
@@ -110,13 +128,13 @@ header {
   gap: 9vw;
 }
 
-.menu li a {
+/* .menu li a {
   font-family: "futura-pt", sans-serif;
   font-size: 120%;
   text-decoration: none;
   font-weight: 400;
   color: rgb(0, 0, 0);
-}
+} */
 
 /* footer styling */
 footer {
