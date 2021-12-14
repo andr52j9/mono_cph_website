@@ -27,9 +27,9 @@ body {
 
   #section1 {
     background-color: white;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40px 1fr;
+    grid-template-rows: 40px 1fr; */
     margin: 7%;
     gap: 5%;
   }
@@ -116,12 +116,6 @@ body {
     margin-left: -5%;
   }
 
-  #kort_wrap {
-    object-fit: cover;
-    margin-left: 0%;
-    width: 100%;
-  }
-
   button {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
@@ -142,11 +136,7 @@ body {
     object-fit: cover;
     width: 100%;
     background-image: url(billeder/kort.jpg);
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    aspect-ratio: 1/1;
+    aspect-ratio: 5/5;
     background-repeat: no-repeat;
   }
 }
