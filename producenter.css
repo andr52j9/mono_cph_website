@@ -1,5 +1,13 @@
 /*Mobile first*/
 
+/*fjerner whitespace i siderne*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**/
+
 img {
   width: 100%;
 }
@@ -7,7 +15,8 @@ img {
 .brands {
   display: grid;
   place-items: cover;
-  aspect-ratio: 1765 / 3472;
+  aspect-ratio: 1854 / 3522;
+  padding-top: 1rem;
 }
 
 main {
@@ -44,27 +53,17 @@ footer {
     font-size: 2.2rem;
     font-style: normal;
     color: aliceblue;
-    margin-left: 22%;
+    margin-left: 14.2%;
     position: relative;
     top: 67px;
   }
 
-  /*iframe {
-    width: 40%;
-    height: auto;
-
-    aspect-ratio: 16 / 9;
-  } */
-
   .brands {
     display: grid;
     place-items: center;
-    aspect-ratio: 1765 / 3472;
+    aspect-ratio: 1854 / 3522;
     width: 80%;
     margin-inline: auto;
     padding-bottom: 1rem;
-  }
-
-  header {
   }
 }
