@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+/*fjerner whitespace i siderne*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**/
+
 body {
   background-color: #c9c9bd;
 }
