@@ -23,8 +23,18 @@ img {
 h1 {
   margin-left: 20%;
   font-family: futura-pt, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-left: 2%;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: normal;
+  color: black;
 }
 
 p {
@@ -38,6 +48,15 @@ p {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-size: 2rem;
+    font-style: normal;
+  }
+
+  h2 {
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
     font-style: normal;
   }
 
